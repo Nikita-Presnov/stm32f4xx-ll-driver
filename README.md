@@ -1,4 +1,4 @@
-# STM32F1xx Low Layer Driver
+# STM32F4xx Low Layer Driver
 
 This project contains only the Low-Layer APIs source code for STM32F4 microcontrollers.
 For code base the author uses official the Low-Layer APIs code from package [STM32CubeF4][1].
