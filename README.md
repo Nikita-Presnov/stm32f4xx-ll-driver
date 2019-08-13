@@ -1,7 +1,7 @@
 # STM32F1xx Low Layer Driver
 
-This project contains only the Low-Layer APIs source code for STM32F1 microcontrollers.
-For code base the author uses official the Low-Layer APIs code from package [STM32CubeF1][1].
+This project contains only the Low-Layer APIs source code for STM32F4 microcontrollers.
+For code base the author uses official the Low-Layer APIs code from package [STM32CubeF4][1].
 
 ## Why does this project exist?
 
@@ -20,11 +20,17 @@ don't change official code any way:
 -   IAR project for building static library of Low-Layer APIs
 -   new module for dynamically setting the interrupt handler (the vector table has been copied to the RAM sector)
 
+## System clock
+
+System clock from HSE is 8 MHz. Be careful, see macro definitions in options of the project.
+
 ## Low-Layer APIs for other series
 
 Author made repositories for other series:
 
 -   [STM32L0 series][2]
+-   [STM32F1 series][3]
 
-[1]:  //www.st.com/content/st_com/en/products/embedded-software/mcus-embedded-software/stm32-embedded-software/stm32cube-mcu-packages/stm32cubef1.html   "STM32CubeF1"
+[1]:  //www.st.com/en/embedded-software/stm32cubef4.html   "STM32CubeF4"
 [2]:  //github.com/vitkorob/stm32l0xx-ll-driver/
+[3]:  //github.com/vitkorob/stm32f1xx-ll-driver`

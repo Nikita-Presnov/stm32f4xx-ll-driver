@@ -1,4 +1,7 @@
 **/settings/
+
 **/ewarm/
+
 **/gcc/
+
 **/*.dep
