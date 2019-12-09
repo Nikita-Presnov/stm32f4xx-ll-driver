@@ -33,4 +33,4 @@ Author made repositories for other series:
 
 [1]:  //www.st.com/en/embedded-software/stm32cubef4.html   "STM32CubeF4"
 [2]:  //github.com/vitkorob/stm32l0xx-ll-driver/
-[3]:  //github.com/vitkorob/stm32f1xx-ll-driver`
+[3]:  //github.com/vitkorob/stm32f1xx-ll-driver/
