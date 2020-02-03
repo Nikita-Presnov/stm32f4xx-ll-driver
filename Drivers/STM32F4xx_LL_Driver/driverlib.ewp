@@ -1360,20 +1360,9 @@
         <option>
           <name>CCDefines</name>
           <state>USE_FULL_LL_DRIVER=1</state>
-          <state>USE_FULL_ASSERT=0</state>
           <state>STM32F429xx</state>
           <state>NDEBUG</state>
           <state>HSE_VALUE=8000000</state>
-          <state>HSE_STARTUP_TIMEOUT=1000</state>
-          <state>LSE_STARTUP_TIMEOUT=5000</state>
-          <state>LSE_VALUE=32768</state>
-          <state>EXTERNAL_CLOCK_VALUE=12288000</state>
-          <state>HSI_VALUE=16000000</state>
-          <state>LSI_VALUE=32000</state>
-          <state>VDD_VALUE=3300</state>
-          <state>PREFETCH_ENABLE=1</state>
-          <state>INSTRUCTION_CACHE_ENABLE=1</state>
-          <state>DATA_CACHE_ENABLE=1</state>
         </option>
         <option>
           <name>CCIncludePath2</name>
